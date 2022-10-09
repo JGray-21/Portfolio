@@ -10,7 +10,7 @@ def div(num1, num2):
 	return int(num1) / int(num2)
 
 while True:
-	math = input('>')
+	math = input('>  ')
 
 	if math.find('+') >= 0:
 		ans = add(math[:math.find('+')], math[math.find('+')+1:])
